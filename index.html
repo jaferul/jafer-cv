@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jafer Nusier — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-inner">
+            <p class="hero-label anim anim-1">curriculum vitae</p>
+            <h1 class="hero-name anim anim-2">Jafer Nusier</h1>
+            <div class="hero-meta anim anim-3">
+                <a href="mailto:nusierj@gmail.com">nusierj@gmail.com</a>
+                <span class="divider"></span>
+                <a href="tel:+447706582024">+447706582024</a>
+            </div>
+        </div>
+        <div class="hero-rule anim anim-4"></div>
+    </header>
+
+    <main>
+        <section class="about anim anim-5">
+            <p>Experienced Front-End Engineer with a passion for crafting innovative web applications. Proficient in React, Next.js, and TypeScript, delivering high-performance and user-centric experiences. Adept at leveraging modern development practices, including component-based architecture, state management, and testing frameworks. Proven ability to collaborate effectively in agile teams and deliver projects on time within tight deadlines. Seeking a challenging role to contribute to cutting-edge web development initiatives.</p>
+        </section>
+
+        <section class="section anim anim-6">
+            <h2 class="section-title">Experience</h2>
+
+            <article class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 class="entry-role">Frontend Developer</h3>
+                        <p class="entry-company">Tickitto AI Ltd, London</p>
+                    </div>
+                    <time class="entry-date">2022 — Present</time>
+                </div>
+                <ul class="entry-list">
+                    <li>Optimised and maintained the initial version of the company’s website using ReactJS, TypeScript, CSS/SASS and Netlify.</li>
+                    <li>Led the full website revamp using NextJS, TypeScript, Tailwind CSS and Vercel, leveraging Mantine for custom component creation.</li> 
+                    <li>Integrated Sanity IO CMS for content management, including white label capabilities for partners such as American Express and Careem.</li>
+                    <li>Managed and worked with a monorepo using Turborepo which enabled handling multiple standalone apps which shared the majority of design components into a single repository, while each one having their own deployment.</li>
+                    <li>Led the implementation of the business website using NextJS 14 and App Router with full CMS customisability.</li>
+                    <li>Built a custom internal CMS for the content team, automating manual content processes end-to-end — designed the frontend and developed API endpoints with Python, FastAPI and MongoDB.</li>
+                    <li>Developed responsive and reusable components with dynamic adjustment from mobile to desktop sizes, incorporating W3C Accessibility Guidelines and comprehensive test suites and end to end testing using Jest and Cypress.</li>
+                    <li>Worked in an agile environment utilising Git and GitHub for code management, and JIRA and Asana for task management.</li>
+                    <li>Conducted SEO optimisation strategies using Google Search Console, improving site visibility and search performance by refining indexing, page descriptions and targeted keywords.</li>
+                    <li>Implemented and maintained scripts for Google Tag Manager, Google Analytics, and Zendesk while contributing to visual concepts and user interface elements using Figma.</li>
+                </ul>
+            </article>
+
+            <article class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 class="entry-role">Software Engineer <span style="font-weight: 400; color: var(--gray); font-size: 0.85rem;">(Part-time)</span></h3>
+                        <p class="entry-company">SQHIVE LTD, London</p>
+                    </div>
+                    <time class="entry-date">2021 — 2022</time>
+                </div>
+                <ul class="entry-list">
+                    <li>App and web development using React.js, Javascript, GraphQL and Relay.</li>
+                    <li>Created custom reusable components using Styled Components and CSS; contributed to system design using Miro.</li>
+                    <li>Monitored reliability and performance of systems using a Firestore database.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="section anim anim-7">
+            <h2 class="section-title">Projects</h2>
+
+            <a href="https://gym.nusier.me" target="_blank" rel="noopener" class="project-card">
+                <div class="project-card-image">
+                    <img src="images/gym-progress-logo.png" alt="Gym Progress Tracker">
+                </div>
+                <div class="project-card-body">
+                    <h3 class="project-card-title">Gym Progress Tracker</h3>
+                    <p class="project-card-link">https://gym.nusier.me</p>
+                    <p class="project-card-desc">A full-featured fitness tracking web app for logging workouts, tracking calories and macros, managing custom meals and exercises, and visualising progress over time.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Vite</span>
+                        <span>TypeScript</span>
+                        <span>TanStack Router</span>
+                        <span>Firestore</span>
+                        <span>Firebase Auth</span>
+                        <span>Firebase AI Logic</span>
+                        <span>shadcn/ui</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://game.nusier.me" target="_blank" rel="noopener" class="project-card" style="margin-top: 12px;">
+                <div class="project-card-image">
+                    <img src="images/sprite-game-bg.png" alt="Sprite Animation Game">
+                </div>
+                <div class="project-card-body">
+                    <h3 class="project-card-title">Sprite Animation Game</h3>
+                    <p class="project-card-link">https://game.nusier.me</p>
+                    <p class="project-card-desc">A browser-based 2D platformer game built from scratch on the HTML5 Canvas, featuring a fully keyboard-controlled character with hand-tuned sprite animations — idle, run, jump, double jump and attack — plus an interactive and fun display of my CV.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>HTML5 Canvas</span>
+                        <span>Sprite Animation</span>
+                        <span>requestAnimationFrame</span>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <section class="section anim anim-8">
+            <h2 class="section-title">Education</h2>
+
+            <article class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 class="entry-role">BEng Electrical &amp; Electronic Engineering</h3>
+                        <p class="entry-company">University College London</p>
+                    </div>
+                    <time class="entry-date">2019 — 2022</time>
+                </div>
+                <ul class="entry-list">
+                    <li><strong>Dissertation:</strong> Binaural sound source localisation with image classification on raw audio signals (Score: 79)</li>
+                    <li><strong>Modules:</strong> Java, C, Connected Systems, Networking, IoT, Robotics, Digital Signal Processing, Advanced Digital Design</li>
+                </ul>
+            </article>
+
+            <article class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 class="entry-role">Dissertation Project</h3>
+                        <p class="entry-company">Binaural Sound Source Localisation</p>
+                    </div>
+                </div>
+                <ul class="entry-list">
+                    <li>Researched sound propagation, data acquisition and processing of sound signals and approaches on biomimetic sound source azimuth estimation.</li>
+                    <li>Created a binaural setup using a realistic head model and ears.</li>
+                    <li>Engineered custom PCB hardware for binaural sound sensing and digital processing, wired to the head model and laptop.</li>
+                    <li>Developed Matlab software for recording data and collected multiple datasets with the binaural setup.</li>
+                    <li>Developed Matlab software for deterministic sound source localisation using interaural cues (ILDs and ITDs).</li>
+                    <li>Developed Python software to apply image classification on raw audio signals for estimating the sound source azimuth angle.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="section anim anim-9">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-group">
+                <div class="skill-row">
+                    <h3 class="skill-label">Frontend</h3>
+                    <div class="skill-tags">
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>React.js</span>
+                        <span>Next.js</span>
+                        <span>Tailwind CSS</span>
+                        <span>CSS / SASS</span>
+                        <span>Styled Components</span>
+                        <span>Mantine</span>
+                        <span>shadcn/ui</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">State & APIs</h3>
+                    <div class="skill-tags">
+                        <span>Relay</span>
+                        <span>tRPC</span>
+                        <span>Context</span>
+                        <span>REST</span>
+                        <span>GraphQL</span>
+                        <span>Prisma</span>
+                        <span>Orval</span>
+                        <span>Postman</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Tooling</h3>
+                    <div class="skill-tags">
+                        <span>Vercel</span>
+                        <span>Netlify</span>
+                        <span>Turborepo</span>
+                        <span>Docker</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Backend</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Pydantic</span>
+                        <span>NodeJS</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Testing</h3>
+                    <div class="skill-tags">
+                        <span>Jest</span>
+                        <span>React Testing Library</span>
+                        <span>Cypress</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">CMS & DB</h3>
+                    <div class="skill-tags">
+                        <span>SanityIO</span>
+                        <span>PayloadCMS</span>
+                        <span>MongoDB</span>
+                        <span>Firestore</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Analytics</h3>
+                    <div class="skill-tags">
+                        <span>Google Tag Manager</span>
+                        <span>Google Analytics</span>
+                        <span>Search Console</span>
+                        <span>Zendesk</span>
+                        <span>OneTrust</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">PM</h3>
+                    <div class="skill-tags">
+                        <span>Jira</span>
+                        <span>Asana</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Design</h3>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>Miro</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Templates</h3>
+                    <div class="skill-tags">
+                        <span>Jinja</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <h3 class="skill-label">Auth</h3>
+                    <div class="skill-tags">
+                        <span>NextAuth</span>
+                        <span>Firebase Auth</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer anim anim-10">
+        <a href="mailto:nusierj@gmail.com">nusierj@gmail.com</a>
+        <a href="tel:+447706582024">+447706582024</a>
+    </footer>
+</body>
+</html>
